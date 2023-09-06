@@ -17,3 +17,5 @@ function resetFilterBtns(){
   });
 }
 
+let bot = document.querySelector("#suggest");
+bot.addEventListener("click", () => {console.log("Call API!");})
